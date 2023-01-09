@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/a48500040e.js" crossorigin="anonymous"></script>
+
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-side">
+            <div class="login-header">
+                <h1>Bem-vindo</h1>
+                <p>Faça seu login para acessar sua página:</p>
+            </div>
+            <form class="login-form">
+                <div class="login-form-content">
+                    <div class="form-item">
+                        <label for="email">E-mail/User:</label>
+                        <input type="text" id="email"> 
+                    </div>
+                    <div class="form-item">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="password"> 
+                    </div>
+                    <div class="form-item">
+                        <div class="checkbox">
+                            <input type="checkbox" id="remember" checked>
+                            <label for="remember" class="checkboxLabel">Lembrar senha</label>
+                        </div>
+                    </div>
+                    <button type="submit">Entrar</button>
+                </div>               
+                <div class="login-form-footer">
+                    <a href="#">
+                        <img src="/images/facebook.png" alt="Facebook icon">
+                        <p>Login via Facebook</p>
+                    </a>
+                    <a href="#">
+                        <img src="/images/google.png" alt="Google icon">
+                        <p>Login via Google</p>
+                    </a>
+                </div>
+            </form>
+        </div>
+
+        <div class="right-side">
+            <img src="/images/login-image.svg" alt="login-image">
+        </div>
+    </div>
+    
+</body>
+</html>
